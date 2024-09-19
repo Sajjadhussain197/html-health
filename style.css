@@ -1,0 +1,136 @@
+body {
+    background-color: #ffffff; /* Clean white background */
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+}
+
+.sidebar {
+    width: 250px; /* Width of the sidebar */
+    height: 100%; /* Full height */
+    position: fixed; /* Fixed position */
+    background-color: #007BFF; /* Sidebar color */
+    padding: 20px;
+    color: white;
+}
+
+.sidebar h2 {
+    margin-top: 0;
+    color: #FFD700;
+}
+
+.sidebar ul {
+    list-style-type: none; /* Remove bullet points */
+    padding: 0;
+}
+
+.sidebar ul li {
+    margin-bottom: 10px; /* Space between links */
+    border-radius: 12px; /* Rounded corners for list items */
+}
+
+.sidebar ul li a {
+    display: block; /* Make the entire list item clickable */
+    padding: 10px; /* Padding inside the link */
+    color: white; /* Link color */
+    text-decoration: none; /* Remove underline */
+    border-radius: 12px; /* Rounded corners for links */
+    transition: background-color 0.3s ease; /* Smooth transition for background color */
+}
+
+.sidebar ul li a:hover {
+    background-color: rgba(255, 255, 255, 0.2); /* Lighten background on hover */
+}
+
+.content {
+    margin-left: 270px; /* Space for sidebar */
+    padding: 20px; /* Padding for content */
+}
+
+header {
+    text-align: center;
+}
+.testimonial {
+    background-color: #f8f9fa; /* Light gray background for testimonials */
+    border-left: 5px solid #007BFF; /* Blue left border for emphasis */
+    padding: 10px;
+    margin-bottom: 15px;
+    display: flex; /* Use flexbox for alignment */
+    align-items: center; /* Center items vertically */
+}
+
+.testimonial-image {
+    width: 50px; /* Set width of the image */
+    height: 50px; /* Set height of the image */
+    border-radius: 50%; /* Make the image round */
+    margin-right: 15px; /* Space between image and text */
+}
+
+.intro, .testimonials, .call-to-action {
+    padding: 20px;
+    margin-left: 40px;
+    margin-right: 40px;
+    margin-bottom: 20px;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Subtle shadow for sections */
+}
+
+.call-to-action{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    
+}
+
+img {
+    width: 100%; /* Responsive image */
+    border-radius: 8px; /* Rounded corners for images */
+}
+
+.testimonial {
+    background-color: #f8f9fa; /* Light gray background for testimonials */
+    border-left: 5px solid #007BFF; /* Blue left border for emphasis */
+    padding: 10px;
+    margin-bottom: 15px;
+}
+
+p {
+    font-size: 16px; /* Standard text size for paragraphs */
+}
+
+hr {
+    border: none;
+    height: 0.5px; /* Height of the horizontal rule */
+    background-color: #007BFF; /* Blue color for HR */
+    width: 80%;
+}
+
+.call-to-action {
+    text-align: center;
+}
+
+.cta-button {
+    background-color: #28A745; /* Green button color */
+    color: white;
+    width: 100px;
+    margin-top: 40px;
+    padding: 10px 20px;
+    text-decoration: none;
+    border-radius: 5px;
+}
+
+.cta-button:hover {
+    background-color: #218838; /* Darker green on hover */
+}
+
+footer {
+    text-align: center;
+}
+
+footer a {
+    color: #007BFF; /* Bright blue for links */
+}
+
+.video-container {
+    display: flex;
+    justify-content: center; /* Centering video */
+}
